@@ -41,18 +41,19 @@
 }
 
 .starscontainer{
-    margin-right: 215px;
+    margin-right: 230px;
+    margin-top: 30px;
 }
 
 .starts{
     display: flex;
     align-items: center;
-    border: 1px solid;
     border-radius: 5px;
-    background-color: hsl(300, 43%, 22%, 0.5);
+    background-color: hsl(300, 24%, 96%);
     width: 380px;
-    height: 45px;
+    height: 50px;
     padding-left: 25px;
+    
 }
 
 .text{
@@ -63,7 +64,53 @@
 .fivestars{
     letter-spacing: 4px;
 }
+
+.star2{
+    margin-left: 30px;
+}
+
+.star3{
+    margin-left: 60px;
+}
 .second_section{
     margin-left: 140px;
     margin-top: 65px;
+}
+
+.cardcontainer{
+    display: flex;
+}
+
+.cards{
+    justify-content: space-between;
+    width: 360px;
+    height: 230px;
+    border-radius: 10px;
+    background-color: hsl(300, 43%, 22%) ;
+    color: white;
+    padding: 30px;
+}
+
+.cards p {
+    font-size: 17px;
+    line-height: 20px;
+    width: 300px;
+}
+
+.photo_name{
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.person_image{
+    height: 50px;
+    border-radius: 30px;
+}
+
+.card2{
+    margin-left: 30px;
+}
+
+.card3{
+    margin-left: 30px;
 }
